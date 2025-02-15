@@ -1,0 +1,48 @@
+//1 - Criação de Variáveis: Declare três variáveis do tipo inteiro e exiba seus valores na tela.
+
+        int a = 1, b = 2, c = 3;
+        System.out.printf("a = %d, b = %d e c = %d", a, b, c);
+
+//2 - Entrada e Saída de Dados: Peça para o usuário digitar seu nome e exiba a mensagem: "Olá, [nome]!".
+
+        System.out.println("Qual o seu nome?");
+        String nome = sc.nextLine();
+        System.out.printf("Olá, %s, que bom ter você aqui!", nome);
+
+//3 - Lendo e Exibindo Números: Peça ao usuário para digitar dois números inteiros e exiba os valores digitados.
+
+        System.out.println("Qual o valor de D?");
+        int d = sc.nextInt();
+        System.out.println("E qual o valor de E?");
+        int e = sc.nextInt();
+        System.out.printf("D = %d e E = %d.", d, e);
+
+//4 - Conversão de Tipos: Peça ao usuário um número decimal (double) e exiba-o convertido para um número inteiro.
+
+        System.out.println("Informe um número decimal:");
+        double decimal = sc.nextDouble();
+        int inteiro = (int) decimal;
+        System.out.println("O inteiro do seu decimal é " + inteiro);
+
+//5 - Crie um programa que declare as seguintes variáveis e atribua valores iniciais a elas:
+        //Um número inteiro
+        //Um número decimal (double)
+        //Um caractere
+        //Um valor booleano
+        //Exiba os valores na tela.
+
+        int a = 25;
+        double b = 23.67;
+        char c = '@';
+        boolean d = true;
+        System.out.printf("a = %d, b = %.2f, c = %s, d = %s", a, b, c, d);
+
+//6 - Faça um programa que solicite ao usuário seu nome e sua idade, e depois exiba uma mensagem no formato:
+        // "Olá, [nome]! Você tem [idade] anos."
+
+        System.out.println("Olá, qual o seu nome?");
+        String nome = sc.nextLine();
+        System.out.println("Ok, quantos anos você tem?");
+        int idade = sc.nextInt();
+        System.out.printf("Olá, %s, você tem %d anos.", nome, idade);
+
