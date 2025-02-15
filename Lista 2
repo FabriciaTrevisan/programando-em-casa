@@ -46,3 +46,13 @@
         int idade = sc.nextInt();
         System.out.printf("Olá, %s, você tem %d anos.", nome, idade);
 
+//7 - Leia dois números inteiros do usuário e exiba a soma deles.
+
+        System.out.println("quanto gastou com o produto A?");
+        double valorA = sc.nextDouble();
+        System.out.println("quanto gastou com o produto B?");
+        double valorB = sc.nextDouble();
+        double soma = valorA + valorB;
+        System.out.printf("No total você gastou %.2f.", soma);
+
+
